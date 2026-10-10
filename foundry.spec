@@ -45,6 +45,7 @@ BuildRequires:	template-glib-devel >= 1.0
 BuildRequires:	vte-gtk4-devel >= 0.80
 BuildRequires:	xz
 BuildRequires:	yaml-devel >= 0.1
+Requires(post,postun):	/sbin/ldconfig
 Requires:	glib2 >= 1:2.82
 Requires:	gom >= 0.5.0
 Requires:	json-glib >= 1.0
