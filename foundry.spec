@@ -28,6 +28,7 @@ BuildRequires:	json-glib-devel >= 1.0
 BuildRequires:	libadwaita-devel >= 1.7
 BuildRequires:	libdex-devel >= 1.1
 BuildRequires:	libgit2-devel >= 1.6
+BuildRequires:	libpanel-devel >= 1.8
 BuildRequires:	libpeas2-devel >= 2.0
 BuildRequires:	libsecret-devel
 BuildRequires:	libsoup3-devel >= 3.0
@@ -156,6 +157,7 @@ Summary(pl.UTF-8):	Integracja libfoundry w aplikacjach GNOME
 Group:		X11/Libraries
 Requires:	%{name}-gtk%{?_isa} = %{version}-%{release}
 Requires:	libadwaita >= 1.7
+Requires:	libpanel >= 1.8
 
 %description adw
 Integrate libfoundry into GNOME applications.
@@ -170,6 +172,7 @@ Group:		X11/Development/Libraries
 Requires:	%{name}-adw%{?_isa} = %{version}-%{release}
 Requires:	%{name}-gtk-devel%{?_isa} = %{version}-%{release}
 Requires:	libadwaita-devel >= 1.7
+Requires:	libpanel-devel >= 1.8
 
 %description adw-devel
 Header files for Foundry Adw library.
